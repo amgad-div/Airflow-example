@@ -4,7 +4,7 @@ This repository contains an Airflow DAG that performs data cleaning and filterin
 
 ## Overview
 
-The DAG, named "CleanData", is scheduled to run every 5 minutes. It has a default start date of April 13, 2024, and is set to retry the tasks once with a 5-minute delay.
+The DAG, named "CleanData", is scheduled to run every day. It has a default start date of April 13, 2024, and is set to retry the tasks once with a 5-minute delay.
 
 ## Tasks
 
