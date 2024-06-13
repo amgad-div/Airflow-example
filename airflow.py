@@ -43,7 +43,7 @@ def filterData():
     tofrom.to_csv('may23-june3.csv')
 
 with DAG('CleanData',
-default_args=default_args,schedule_interval=timedelta(minutes=5)) as dag:
+default_args=default_args,schedule_interval="@daily") as dag:
     # Define the tasks
 
     task_bash = BashOperator(
